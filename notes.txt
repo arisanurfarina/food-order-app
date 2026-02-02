@@ -1,0 +1,24 @@
+CLIENT SETUP:
+1. npm install @mui/material @emotion/react @emotion/styled @mui/styled-engine-sc styled-components @mui/icons-material
+2. npm install react-router-dom
+3. npm install axios
+4. npm install @fontsource/roboto
+5. npm install @mui/styles
+6. npm install uuid
+7. npm install @base-ui/react
+
+SERVER SETUP:
+1. npm init --y
+2. npm i --save json-server
+3. change the line in package.json: 
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      }
+  into
+      "scripts": {
+        "start": "json-server -p 3006 -w db.json"
+      }
+
+CONCURRENT RUN SETUP:
+1. npm install nodemon
+2. npm install concurrently --save-dev
