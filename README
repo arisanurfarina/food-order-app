@@ -20,5 +20,5 @@ SERVER SETUP:
       }
 
 CONCURRENT RUN SETUP:
-1. npm i nodemon
-2. npm i -D concurrently
+1. npm install nodemon
+2. npm install concurrently --save-dev
