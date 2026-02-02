@@ -1,0 +1,27 @@
+{
+  "meals": [
+    {
+      "name": "Beef Burger",
+      "description": "50g beef patty",
+      "price": "20",
+      "image": "https://res.cloudinary.com/dbnlkhxmj/image/upload/v1770048003/hnhqtszeot2jhwrs6xm8.jpg",
+      "id": "a2a7a18d-afe0-4193-81c0-83fe95d311ed"
+    }
+  ],
+  "orders": [
+    {
+      "id": "d5655b36-e53a-401d-abc6-81ee8932aee9",
+      "cartItems": [
+        {
+          "name": "Beef Burger",
+          "description": "50g beef patty",
+          "price": "20",
+          "image": "https://res.cloudinary.com/dbnlkhxmj/image/upload/v1770048003/hnhqtszeot2jhwrs6xm8.jpg",
+          "id": "a2a7a18d-afe0-4193-81c0-83fe95d311ed",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 20
+    }
+  ]
+}
